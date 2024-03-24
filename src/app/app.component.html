@@ -15,7 +15,8 @@ Component: component1,component2,component3,component4 -->
 
 
 
-  <!-- lab6 -->
+  <!-- lab6 
+  component:home,about,contact-->
   <h1><a routerLink="/home">Home</a></h1>
   <h1><a routerLink="/about">About</a></h1>
   <h1><a routerLink="/contact">Contact</a></h1>
@@ -24,7 +25,8 @@ Component: component1,component2,component3,component4 -->
 
 
 
-  <!-- lab2 -->
+  <!-- lab2
+  component:child -->
   <!-- <app-child [childInput]="parentvalue"></app-child> -->
   <app-child [childInput]="parentvalue" (sendValue)="getValuesfromChild($event)"></app-child>
   <p>{{Name}}</p>
@@ -32,7 +34,9 @@ Component: component1,component2,component3,component4 -->
 
 
 
-  <!-- lab3 -->
+  <!-- lab3 
+  directive:font-size
+  component:child-font-->
   <input type="text" id="font-size" name="font-size" placeholder="Enter the font size" #fontsize>
   <button (click)= sendFontSize(fontsize.value)>submit</button>
   <app-child-font [fsize]="size"></app-child-font>
@@ -40,7 +44,8 @@ Component: component1,component2,component3,component4 -->
 
 
 
-  <!-- lab4 -->
+  <!-- lab4 
+  pipe:character-->
   <p>Enter a text:</p>
   <input type="text" #strvalue>
   <button (click)="getString(strvalue.value)">Get first two character</button>
@@ -69,7 +74,8 @@ Component: component1,component2,component3,component4 -->
 </form>
 <br>
 
-<!-- lab7 -->
+<!-- lab7
+component:number-list -->
 <app-number-list></app-number-list>
 <br>
 

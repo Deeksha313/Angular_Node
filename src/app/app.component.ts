@@ -17,7 +17,7 @@ import { FontSizeDirective } from './font-size.directive';
 import { ChildFontComponent } from "./child-font/child-font.component";
 //lab4
 import { CharacterPipe } from './character.pipe';
-//lab6
+//lab5
 import { FormControl, FormGroup, FormsModule,ReactiveFormsModule,Validators } from '@angular/forms';
 //lab7
 import { NumberListComponent } from './number-list/number-list.component';
@@ -28,8 +28,6 @@ import { response } from 'express';
 import { DataComponent } from './data/data.component';
 //lab10
 import { Data2Component } from './data2/data2.component';
-
-
 
 
 @Component({
